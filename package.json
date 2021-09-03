@@ -1,0 +1,30 @@
+{
+  "name": "auto-forwarding",
+  "version": "1.0.0",
+  "description": "Auto Forward TCP Package",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soithattha/auto-forwarding.git"
+  },
+  "keywords": [
+    "relay",
+    "forwarding",
+    "tcp"
+  ],
+  "bin": {
+    "forwarding": "./bin/cli.js"
+  },
+  "author": "kiendt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soithattha/auto-forwarding/issues"
+  },
+  "homepage": "https://github.com/soithattha/auto-forwarding#readme",
+  "dependencies": {
+    "net": "^1.0.2"
+  }
+}
